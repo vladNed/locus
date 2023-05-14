@@ -6,7 +6,7 @@ authors = ["Vlad Nedelcu <nedelcuvd@gmail.com>"]
 readme = "README.md"
 license = "MIT"
 description = "A simple, cross-platform, json file-based storage for Rust"
-keywords = ["locus", "storable", "storage", "serde", "json", "rust-json", "rust-serde"]
+keywords = ["locus", "storage", "serde", "json", "rust-serde"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
