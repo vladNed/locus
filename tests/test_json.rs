@@ -1,6 +1,6 @@
 use std::{fs::File, io::Write};
 
-use locus::json::Jsonable;
+use locus_lib::json::Jsonable;
 use serde::{Serialize, Deserialize};
 use tempfile::tempdir;
 

@@ -23,7 +23,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-locus = "0.1.0"
+locus-lib = "0.1.0"
 ```
 
 ## Example

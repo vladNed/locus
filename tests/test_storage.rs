@@ -1,6 +1,6 @@
 use std::fs;
 
-use locus::{storage::{Storable, StoragePath}, json::Jsonable};
+use locus_lib::{storage::{Storable, StoragePath}, json::Jsonable};
 use serde::{Serialize, Deserialize};
 
 
