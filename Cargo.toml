@@ -1,0 +1,19 @@
+[package]
+name = "locus"
+version = "1.0.0"
+edition = "2021"
+authors = ["Vlad Nedelcu <nedelcuvd@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+description = "A simple, cross-platform, json file-based storage for Rust"
+keywords = ["locus", "storable", "storage", "serde", "json", "rust-json", "rust-serde"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dirs = "5.0.0"
+
+[dev-dependencies]
+tempfile = "3.5.0"
